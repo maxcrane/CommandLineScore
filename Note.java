@@ -2,8 +2,8 @@
 /**
  * Write a description of class Note here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Max Crane 
+ * @version 3/24/15 
  */
 public class Note
 {
@@ -11,7 +11,12 @@ public class Note
     private int row;
     private int col;
     
-    public Note(int durat){
+    /**
+     * Constructor for Note.
+     * @param durat the duration of the note 
+     */
+    public Note(int durat)
+    {
         this.duration = durat;
     }
     
